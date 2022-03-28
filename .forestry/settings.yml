@@ -4,21 +4,21 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-  - type: directory
+- type: directory
   path: docs/django
   label: django
   create: documents
   match: "*.md"
   templates:
   - post
-  - type: directory
+- type: directory
   path: docs/react
   label: react
   create: documents
   match: "*.md"
   templates:
   - post
-  - type: directory
+- type: directory
   path: docs/javascript
   label: javascript
   create: documents
